@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-style: italic;
+  font-size: x-large;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: linear-gradient(to right, black, green);
+  color: white;
+  text-transform: capitalize;
+}
+
+.todo {
+
+  background: #7fff00;
+  width: 600px;
+  height: 300px;
+  overflow: scroll;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+
+}
+.todo input {
+  background: white;
+  width: 100%;
+ 
+}
+
+.todo li {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+  .todo li {
+    font-size: 0.8em;
+  }
+}
+
+
+
+
+
+
+
+
+
+  
