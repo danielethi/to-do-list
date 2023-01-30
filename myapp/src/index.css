@@ -1,6 +1,8 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  font-family: "Dancing Script", cursive;
+
 }
 h1 {
   font-style: italic;
@@ -12,9 +14,11 @@ h1 {
   color: white;
   text-transform: capitalize;
 }
+h2 {
+  text-align: center;
+}
 
 .todo {
-
   background: #7fff00;
   width: 600px;
   height: 300px;
@@ -22,31 +26,36 @@ h1 {
   position: absolute;
   top: 30%;
   left: 30%;
-
 }
 .todo input {
   background: white;
   width: 100%;
- 
+  border: none;
+  outline: none;
+  padding: 10px;
+
 }
 
 .todo li {
   display: flex;
   justify-content: space-between;
+  padding-left: 10px;
+  font-size: 1rem;
+	letter-spacing: 2px;
+    
+}
+.todo  li:hover{
+    background-color:green;
+    opacity: 0.5;
+
 }
 
-@media (max-width: 500px) {
-  .todo li {
-    font-size: 0.8em;
+
+
+
+
+@media only screen and (max-width: 750px) {
+  .todo {
+    font-size: 14px;
   }
 }
-
-
-
-
-
-
-
-
-
-  
